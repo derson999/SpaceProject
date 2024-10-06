@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="author" content="templatemo">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <title>SnapX Photography by TemplateMo</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-snapx-photography.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+<!--
+
+TemplateMo 576 SnapX Photography
+
+https://templatemo.com/tm-576-snapx-photography
+
+-->
+  </head>
+
+<body>
+
+
+  <!-- ***** Header Area Start ***** -->
+  <header style="display: flex;align-items: center;justify-content: center;background-color: black;" class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                    <a href="index.html" class="logo">
+                        <img style="margin-left: 220%; width: 100%;" src="assets/images/logo.png" alt="Space">
+                    </a>
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Menu Start ***** -->
+                    <ul style="display: flex;align-items: center;justify-content: center;" class="nav">
+                      <li style="color: white;margin-top: 4%;margin-left: -10%;">Histoires<a href=""></a></li>
+                      <li  style="color: white;margin-top: 4%;">A propos<a href=""></a></li>
+                        <li><a href="index.html" class="active">A propos</a></li>
+                        <li class="has-sub">
+                            <a href="javascript:void(0)">Histoires &amp; blog</a>
+                            <ul class="sub-menu">
+                                <li><a href="contests.html"></a></li>
+                                <li><a href="contest-details.html"></a></li>
+                            </ul>
+                        </li>
+                        <li><a href="categories.html">Categories</a></li>
+                        <li><a href="users.html">Utilisateur</a></li>
+                    </ul>   
+                    <div class="border-button">
+                      <a  style="color: white;" id="modal_trigger" href="#modal" class="sign-in-up"><i class="fa fa-user"></i> Se connecter/S'inscrire</a>
+                    </div>
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+        </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <div id="modal" class="popupContainer" style="display:none;">
+    <div class="popupHeader">
+        <span class="header_title">Login</span>
+        <span class="modal_close"><i class="fa fa-times"></i></span>
+    </div>
+
+    <section class="popupBody">
+        <!-- Social Login -->
+        <div class="social_login">
+            <div class="">
+                <a style="color: white;" href="#" class="social_box fb">
+                    <span style="color: white;" class="icon"><i class="fab fa-facebook"></i></span>
+                    <span class="icon_title"> Se connecter avec Facebook</span>
+
+                </a>
+
+                <a href="#" class="social_box google">
+                    <span class="icon"><i class="fab fa-google-plus"></i></span>
+                    <span class="icon_title">Se connecter avec Google</span>
+                </a>
+            </div>
+
+            <div class="centeredText">
+                <span>ou Email address</span>
+            </div>
+
+            <div class="action_btns">
+                <div class="one_half"><a href="#" id="login_form" class="btn">Connectio</a></div>
+                <div class="one_half last"><a href="#" id="register_form" class="btn">S'inscrire</a></div>
+            </div>
+        </div>
+
+        <!-- Username & Password Login form -->
+        <div class="user_login">
+            <form action="" method="post">
+                <label>Email /Nom d'Utilisateur</label>
+                <input name="username" type="text" id="username" />
+              <br />
+
+                <label>Mot de passe</label>
+                <input name="password" type="password" id="password" />
+              <br />
+
+                <div class="checkbox">
+                    <input id="remember" type="checkbox" />
+                    <label for="remember">Se souvenir de moi</label>
+                </div>
+
+                <div class="action_btns">
+                    <div class="one_half"><a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Retour</a></div>
+                    <div class="one_half last"><button type="submit" class="btn btn_red">Connexion</button></div>
+                </div>
+            </form>
+
+            <a href="#" class="forgot_password">Mot de passe oublier?</a>
+        </div>
+
+        <!-- Register Form -->
+        <div class="user_register">
+            <form action="" method="post">
+                <label>Nom d'Utilisateur</label>
+                <input name="username" type="text" id="username" />
+                <br />
+
+                <label>Email Address</label>
+                <input name="email" type="email" id="email" />
+                <br />
+
+                <label>Mot de passe</label>
+                <input name="password" type="password" id="password" />
+                <br />
+
+                <div class="checkbox">
+                    <input id="send_updates" type="checkbox" />
+                    <label for="send_updates">Send me occasional email updates</label>
+                </div>
+
+                <div class="action_btns">
+                    <div class="one_half"><a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> retour</a></div>
+                    <div class="one_half last"><button type="submit" class="btn btn_red">Registre</button></div>
+                </div>
+            </form>
+        </div>
+        
+    </section>
+  </div>
+
+  <!-- ***** Main Banner Area Start ***** -->
+  <div class="main-banner">
+    <div class="container">
+      <div class="row">
+        <h1 style="color: aliceblue; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;font-size: 75px;">"EXPLOREZ,APPRENEZ,AGISSEZ</h1>
+        <h3 style="color: aliceblue;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 30px;">Decouvrez les enjeux climatique et devenez acteure du changement</h3>
+
+        <div class="col-lg-10 offset-lg-1">
+          <div class="header-text">
+            <h2>EXPLOREZ <em>APPRENEZ</em> &amp; AGISSEZ <em></em></h2>
+            <div class="buttons">
+              <div class="big-border-button">
+                <a href="contests.html">Decouvrez les enjeux climatique et devenez acteure du changement</a>
+              </div>
+              <div class="icon-button">
+                <a href="https://science.nasa.gov/resource/atmospheric-river/" target="_blank"><i class="fa fa-play"></i> voir une videos maintenant</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Main Banner Area End ***** -->
+
+
+  <section class="featured-items" id="featured-items">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="owl-features owl-carousel" style="position: relative; z-index: 5;">
+            <div class="item">
+              <div class="thumb">
+                <img src="assets/images/banner-b.png" alt="" > 
+
+</span>
+                <div class="hover-effect">
+                  <div class="content">
+                    <h1 style="color: orangered;">50% </h1>
+                   
+                    <ul>
+                      <li><span>50% : Le dioxyde de carbone présent dans l'atmosphère réchauffe la planète, provoquant ainsi un changement climatique. Les activités humaines ont augmenté la teneur en dioxyde de carbone de l'atmosphère de 50 % en moins de 200 ans.</span></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="item">
+              <div class="thumb">
+                <img src="assets/images/banner-b.png" alt="">
+                <div class="hover-effect">
+                  <div class="content">
+                    <h1 style="color: orangered;">60% </h1>              
+                    <ul>
+
+                      <li><span>60% : Le méthane est un puissant gaz qui retient la chaleur. On estime que 60 % des émissions actuelles de méthane sont le résultat des activités humaines.</span></li>
+                      
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="thumb">
+                <img src="assets/images/banner-b.png" alt="">
+                <div class="hover-effect">
+                  <div class="content">
+                    <h1 style="color: orangered;">17Mm </h1>              
+                      <ul>
+                        <li><span>1.17°C : Les dix années les plus récentes sont les années les plus chaudes jamais enregistrées. Cette tendance s'explique principalement par le réchauffement climatique,</span></li>
+                      </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="thumb">
+                <img src="assets/images/banner-b.png" alt="">
+                <div class="hover-effect">
+                  <div class="content">
+                    <h1 style="color: orangered;">102Mm  </h1>              
+                    <ul>
+                      <li><span>102Mm :  Le niveau mondial des mers augmente en raison du réchauffement climatique d’origine humaine, à un rythme sans précédent depuis plus de 2 500 ans.</span></li>
+                      
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+  </section>
+  <section class="premiere-histoires"> 
+        <div class="histoires">  
+          <p class="paragraphes"> Imagine un monde autrefois en harmonie, où les forêts luxuriantes abritaient une biodiversité foisonnante, les océans regorgeaient de vie, et l’air que nous respirions était d’une pureté dont nous avons oublié la douceur. Ce monde semblait éternel. Nous, les humains, étions des explorateurs, des rêveurs, et des bâtisseurs, créant des villes, des industries, et des merveilles technologiques. Mais, à force de nous concentrer sur nos exploits, nous avons réveillé un géant invisible : les Gaz à Effet de Serre.
+            Bienvenue dans l’histoire d’une bataille épique, où l’ennemi est tout autour de nous, mais nous le voyons rarement. Pourtant, ses noms sont bien connus : CO2 , CH4 , N2O. Ce sont des forces discrètes, des ombres toxiques qui manipulent notre climat, font monter les océans, et transforment notre terre fertile en déserts arides. Aujourd'hui, nous vous invitons à entrer dans cette histoire, à découvrir comment ces forces se sont libérées et ce que nous, en tant que gardiens de cette planète, pouvons faire pour les vaincre.</p>
+         <div> <img class="video-histoire" src="assets/images/nasa" alt="img"></div>
+        </div>
+        <BR></BR>
+        <button style="color: rgb(41, 40, 40);border: ;border-radius:50px ;float: right;margin-right:5% ;"type="button">AGIR MAINTENANT</button>
+        <th></th>
+  </section>
+<th></th>
+  <section class="premiere-histoires"> 
+    <div class="histoires">  
+      <p class="paragraphes"> Imagine un monde autrefois en harmonie, où les forêts luxuriantes abritaient une biodiversité foisonnante, les océans regorgeaient de vie, et l’air que nous respirions était d’une pureté dont nous avons oublié la douceur. Ce monde semblait éternel. Nous, les humains, étions des explorateurs, des rêveurs, et des bâtisseurs, créant des villes, des industries, et des merveilles technologiques. Mais, à force de nous concentrer sur nos exploits, nous avons réveillé un géant invisible : les Gaz à Effet de Serre.
+        Bienvenue dans l’histoire d’une bataille épique, où l’ennemi est tout autour de nous, mais nous le voyons rarement. Pourtant, ses noms sont bien connus : CO2 , CH4 , N2O. Ce sont des forces discrètes, des ombres toxiques qui manipulent notre climat, font monter les océans, et transforment notre terre fertile en déserts arides. Aujourd'hui, nous vous invitons à entrer dans cette histoire, à découvrir comment ces forces se sont libérées et ce que nous, en tant que gardiens de cette planète, pouvons faire pour les vaincre.</p>
+     <div> <img class="video-histoire" src="assets/images/banner-b.png" alt="img"></div>
+    </div>
+    <BR></BR>
+    <button style="color: rgb(41, 40, 40);border: ;border-radius:50px ;float: right;margin-right:5% ;"type="button">AGIR MAINTENANT</button>
+    <th></th>
+</section>
+<th></th>
+<section class="premiere-histoires"> 
+  <div class="histoires">  
+    <p class="paragraphes"> Imagine un monde autrefois en harmonie, où les forêts luxuriantes abritaient une biodiversité foisonnante, les océans regorgeaient de vie, et l’air que nous respirions était d’une pureté dont nous avons oublié la douceur. Ce monde semblait éternel. Nous, les humains, étions des explorateurs, des rêveurs, et des bâtisseurs, créant des villes, des industries, et des merveilles technologiques. Mais, à force de nous concentrer sur nos exploits, nous avons réveillé un géant invisible : les Gaz à Effet de Serre.
+      Bienvenue dans l’histoire d’une bataille épique, où l’ennemi est tout autour de nous, mais nous le voyons rarement. Pourtant, ses noms sont bien connus : CO2 , CH4 , N2O. Ce sont des forces discrètes, des ombres toxiques qui manipulent notre climat, font monter les océans, et transforment notre terre fertile en déserts arides. Aujourd'hui, nous vous invitons à entrer dans cette histoire, à découvrir comment ces forces se sont libérées et ce que nous, en tant que gardiens de cette planète, pouvons faire pour les vaincre.</p>
+   <div> <img class="video-histoire" src="assets/images/banner-b.png" alt="img"></div>
+  </div>
+  <BR></BR>
+  <button  style="color: rgb(41, 40, 40);border: ;border-radius:50px ;float: right;margin-right:5% ;"type="button">AGIR MAINTENANT</button>
+  <th></th>
+</section>
+
+ 
+  
+ 
+
+
+
+   <section class="pricing-plans">
+    
+  </section>
+
+  <footer style="color: black;" >
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Copyright © 2024 <a href="#">space solution</a> ., Ltd. All rights reserved by sspace app. 
+           <a title="CSS Templates" rel="sponsored" href="https://templatemo.com/page/1" target="_blank">TemplateMo</a></p>
+        </div>
+      </div>
+    </div>
+  </footer> 
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+
+  <script src="assets/js/tabs.js"></script>
+  <script src="assets/js/popup.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+  </body>
+</html>
